@@ -1,0 +1,392 @@
+
+/* O CSS é responsável pela estilização da página, assim como o bootstrap */
+*{
+   font-family: "Roboto";
+}
+
+
+
+
+body{
+   min-height:100vh;            /*Tela do usuário*/
+   padding-bottom: 100px;
+   position: relative;
+   width: 100%;
+   height: 100%;
+}
+
+header{
+   background-color: #FFF;
+   border-bottom: 1px solid #CCC;
+}
+
+.row{
+   margin: 0;
+}
+
+
+
+.container-fluid{
+   padding: 0;
+}
+
+
+.btn-primary{
+   background-color: #F2A340;
+   border: 2px solid #F2A340;
+   margin-bottom: 100px;
+   font-size: 20px;
+   border-radius: 10px;
+}
+
+.btn-primary:hover{
+   background-color: #C28008;
+   border-color:#C28008,
+}
+
+#navbar img {
+   width: 60px;
+   height: 60px;
+   margin-top: -10px;
+   
+  
+}
+
+
+
+#navbar a{
+   color: #757575;
+   font-family: GARAMOND;
+}
+
+
+
+#navbar a:hover{
+   color: #F2a340;
+}
+
+
+#navbar ul {
+   margin-left: 650px;
+   display: inline;
+   margin-top: 15px;
+   font-size: 15px;  
+}
+
+#navbar ul li{
+   margin-left: 10px;
+
+}
+
+#navbar ul li form a{
+   margin-top: 9px;
+
+}
+
+
+#search-container{
+   background-image: url("../imagem/livraria.jpg");
+   background-size: cover;  /* Aproveita toda área da pagina*/
+   background-position:center;
+   height: 400px;
+   padding: 50px;
+   text-align: center;
+}
+
+#search-container h1{
+   color: #f6f4f1;
+   margin:10px;
+   font-weight: 900;
+   font-size: 40px;
+}
+
+#search-container form{
+   width: 50%;   /*Apenas 50% da página */
+   margin: 0 auto; /* Zero auto centraliza na horizontal*/
+
+}
+
+.subtitle{
+   font-size: 14px;
+}
+
+/* Events list*/
+#events-container{
+   padding: 50px;
+   text-align: center;
+
+}
+
+#events-container h2{
+   margin-top: 10px;
+   text-align: center;
+  
+}
+
+#events-container .subtitle{
+   color: #757575;
+   margin-top: 10px;
+   text-align: center;
+}
+
+#cards-container{
+   display: flex;
+   margin-top: 10px;
+   
+}
+
+#events-container .card{
+   flex: 1 1 0;
+   max-width: 20%; /*largura máxima de 20% */
+   border-radius: 10px;
+   padding: 0;
+   margin-top: 20px;
+   margin-left: 5px;
+   border-color: #030a13;
+   
+}
+
+#events-container img{
+   max-height: 100px;
+   border-top-left-radius: 10px;
+   border-top-right-radius: 10px;
+   width: 100%;
+   height: 100%;
+   
+}
+
+
+.card .card-date{
+   margin-top: 10px;
+   font-size: 16px;
+   color: rgb(11, 24, 80);
+   
+}
+
+.card .card-title{
+   color: #212121;
+   font-size: 20px;
+   font-weight: bold;
+   margin-top: 10px;
+  
+}
+
+.card-participants{
+   font-size: 14px;
+   color: #757575;
+   margin-top: 10px;
+  
+}
+
+/*footer*/
+
+footer{
+   text-align: center;
+   background-color: #353E48;
+   color:#FFF;
+   padding: 20px;
+   position: absolute;
+   bottom:-170px;
+   width: 100%;
+   margin-bottom: 0;
+   font-size: 14px;
+  
+}
+
+footer .empresa{
+   background-color: #353E48;
+}
+
+/* Event create page */
+#event-create-container{
+   padding:30px;
+   margin-left: 300px;
+}
+
+#event-create-container label{
+   font-weight: bold;
+   
+}
+
+#event-create-container input,
+#event-create-container select,
+#event-create-container textarea{
+   font-size: 12px;
+
+}
+
+/* Mensagem da página welcome evento salvo */
+.msg{
+   background-color: #CCC;
+   color:green;
+   border: 1px solid #c3e6cb;
+   width:100%;
+   margin-bottom:0;
+   text-align:center;
+   padding: 10px;
+
+}
+
+
+
+.event-city{
+   font-family: 'Times New Roman';
+   font-size: 18px;
+   color: #030a13;
+   
+}
+
+.event-partipants{
+   font-family: 'Times New Roman';
+   font-size: 18px;
+   color: #030a13;
+}
+
+.event-owner{
+   font-family: 'Times New Roman';
+   font-size: 18px;
+   color: #030a13;
+}
+.event-date{
+   font-family: 'Times New Roman';
+   font-size: 18px;
+   color: #030a13;
+}
+
+img.star{
+   width: 25px;
+   height: 25px;
+   
+}
+
+img.person{
+   width: 25px;
+   height: 25px;
+   margin-right: 10px ;
+}
+img.calendario{
+   width: 25px;
+   height: 25px;
+   margin-right: 10px ;
+}
+
+img.location{
+   width: 25px;
+   height: 25px;
+   margin-right: 10px ;
+}
+
+img.img-fluid{
+   border-radius: 20px;
+   width: 300px;
+   height:280px;
+}
+
+#info-container{
+   font-size: 15px;
+   padding: 0;
+   margin-top: 0;
+   font-family: cambria;
+}
+#info-container p{
+   font-family: cambria;
+}
+
+  
+.checkbox{
+   margin-right: 10px;
+}
+
+#description-container h4{
+   font-size: 25px;
+   margin-top: 25px;
+   font-family: Cambria;
+}
+
+
+.event-description{
+   font-size: 14px;
+}
+ul li .seta{
+   width: 25px;
+   height: 25px;
+   margin-right: 10px ;
+}
+
+.msg{
+   font-size:18px;
+}
+
+#items-list{
+   list-style: none;
+   padding: 0;
+}
+
+#items-list li{
+   display: flex;
+}
+
+.col-md-10{
+   margin-top: 25px;
+  
+}
+
+.form-group .cadeiras{
+   margin-top: 15px;
+   
+}
+
+#events-container .resultado, .retorno{
+   font-size: 18px;
+   margin-top: 20px;
+   margin-left: 10px;
+}
+#description-container ul{
+   font-size:20px;
+   color: green;
+}
+
+#description-container h3{
+   font-size: 25px;
+   font-family: cambria;
+   margin-top: 25px;
+}
+.dashboard-events-container form{
+   display: inline-block; /* Coloca em linha o que é do formulário */
+
+}
+
+.img-preview{
+   width: 100px;
+   height: 100px;
+   margin-top: 10px;
+}
+
+#event-create-container h1{
+   margin-bottom: 30px;
+
+}
+
+
+.do_tempo{
+
+   font-size: 18px;
+   color: rgb(241, 241, 249);
+   background-image: url("../imagem/ceu.jpg");
+   background-size: cover; 
+   border-radius: 15px;
+  margin-top: 600px;
+   
+}
+
+.do_tempo .cond{
+   margin-left: 50px;
+}
+
+.do_tempo img{
+
+   width:200px;
+   height: 200px;
+   border-radius: 5px;
+
+}
